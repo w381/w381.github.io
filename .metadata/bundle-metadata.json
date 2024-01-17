@@ -1,33 +1,56 @@
 {
   "bundles": {
     "lwc": {
-      "version": "5.0.0",
-      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/lwc/v/5_0_0/s/b005bb4c2c907fd35a0797f2b8899108a9a5b779/bundle_lwc.js",
+      "version": "2.38.1",
+      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/lwc/v/2_38_1/s/183b29ac1be89ec47e9ba9b34652a5cce805de96/bundle_lwc.js",
       "includedModules": [],
-      "imports": [],
-      "dynamicImports": []
+      "imports": []
     },
     "@lwrjs/app-service/example/module/amd": {
-      "version": "0.11.12",
-      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/@lwrjs/app-service/example/module/amd/v/0_11_12/s/b9ca23b180a88e7c34575ab82d724cac477aebac/bundle_@lwrjs_app-service_example_module_amd.js",
+      "version": "0.9.0",
+      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/@lwrjs/app-service/example/module/amd/v/0_9_0/s/ae96fefa3e780c1ca09fc914875f7b689a31f40f/bundle_@lwrjs_app-service_example_module_amd.js",
       "includedModules": [
-        "lwr/metrics/v/0_11_12",
-        "lwr/init/v/0_11_12",
-        "lwr/preInit/v/0_11_12"
+        "lwr/metrics/v/0_9_0",
+        "lwr/init/v/0_9_0"
       ],
       "imports": [
-        "lwc/v/5_0_0"
-      ],
-      "dynamicImports": []
+        "lwc/v/2_38_1"
+      ]
     },
     "example/app": {
       "version": "0.0.1",
-      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/example/app/v/0_0_1/s/efa3c171276963a4cdab6e64bcf2ba12c5c9fbdf/bundle_example_app.js",
-      "includedModules": [],
-      "imports": [
-        "lwc/v/5_0_0"
+      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/example/app/v/0_0_1/s/3b427068261b4473417ad9395093a49be209f14b/bundle_example_app.js",
+      "includedModules": [
+        "ui/button/v/0_3_2",
+        "example/paginator/v/0_0_1",
+        "example/eventSimple/v/0_0_1",
+        "example/viewSource/v/0_0_1",
+        "example/hello/v/0_0_1",
+        "example/contactListItem/v/0_0_1",
+        "example/eventWithData/v/0_0_1",
+        "data/contacts/v/0_0_1",
+        "data/wireGetContactListProvider/v/0_0_1",
+        "ui/output/v/0_3_2",
+        "example/contactListItemBubbling/v/0_0_1",
+        "example/eventBubbling/v/0_0_1",
+        "example/chartBar/v/0_0_1",
+        "example/apiProperty/v/0_0_1",
+        "example/clock/v/0_0_1",
+        "example/apiFunction/v/0_0_1",
+        "example/todoList/v/0_0_1",
+        "example/apiSetterGetter/v/0_0_1",
+        "example/mortgage/v/0_0_1",
+        "ui/select/v/0_3_2",
+        "example/miscSharedJavascript/v/0_0_1",
+        "example/miscRestApiCall/v/0_0_1",
+        "ui/input/v/0_3_2",
+        "example/miscDomQuery/v/0_0_1",
+        "ui/card/v/0_3_2",
+        "example/miscMultipleTemplates/v/0_0_1"
       ],
-      "dynamicImports": []
+      "imports": [
+        "lwc/v/2_38_1"
+      ]
     }
   }
 }
