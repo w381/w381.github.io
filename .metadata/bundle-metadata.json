@@ -19,7 +19,7 @@
     },
     "example/app": {
       "version": "0.0.1",
-      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/example/app/v/0_0_1/s/3b427068261b4473417ad9395093a49be209f14b/bundle_example_app.js",
+      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/example/app/v/0_0_1/s/d62a0ea3e68ab754eb0226cb4dfc05fdb7a87542/bundle_example_app.js",
       "includedModules": [
         "ui/button/v/0_3_2",
         "example/paginator/v/0_0_1",
@@ -45,8 +45,16 @@
         "example/miscRestApiCall/v/0_0_1",
         "ui/input/v/0_3_2",
         "example/miscDomQuery/v/0_0_1",
+        "example/miscMultipleTemplates/v/0_0_1",
+        "d3/v/7_8_4",
+        "example/libsd3/v/0_0_1",
+        "chart.js/v/4_2_1",
+        "example/libschartjs/v/0_0_1",
+        "example/lightDomQueryChild/v/0_0_1",
+        "example/lightdomquery/v/0_0_1",
         "ui/card/v/0_3_2",
-        "example/miscMultipleTemplates/v/0_0_1"
+        "example/lightDomStylesChild/v/0_0_1",
+        "example/lightdomstyles/v/0_0_1"
       ],
       "imports": [
         "lwc/v/2_38_1"
